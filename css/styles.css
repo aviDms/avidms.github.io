@@ -21,6 +21,7 @@ body {
   margin-bottom: 50px;
   display: flex;
   justify-content: flex-start;
+  box-shadow: -20px 20px 60px rgba(0, 0, 0, 0.5);;
 }
 
 .main-section {
