@@ -19,7 +19,7 @@ function flash_message(identifier, msg, type) {
 };
 
 function submitForm(mail, text) {
-  $.post("http://45.32.154.234//message",
+  $.post("http://45.32.154.234/message",
   {
     email: mail,
     msg: text
