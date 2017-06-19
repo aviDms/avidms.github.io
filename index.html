@@ -3,167 +3,192 @@
   <head>
     <meta charset="utf-8">
     <title>Avram Dames</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
   <body>
-    <div class="container">
 
-      <header>
-        <div class="container">
-        </div>
-      </header>
+    <header>
+      <div class="links">
 
-      <div class="page-content">
-
-      <div class="main-section">
-
-        <div class="category">
-          <div class="about-me-container">
-            <div class="avatar">
-
-            </div>
-            <div class="about-me">
-            <div id="name">
-              <h1>Avram Dames</h1>
-            </div>
-            <div id="profession">
-              <p>
-                Business Intelligence Developer
-              </p>
-            </div>
-            <div id="location">
-              <i class="material-icons md-12">place</i> Berlin, Germany
-            </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Profile -->
-        <div class="category">
-          <div class="category-title">
-            <h3>Profile</h3>
-          </div>
-          <div class="category-content">
-            <div class="content-item">
-              <div class="content-item-text">
-                +3 years experience in Business Intelligence using
-                Python and SQL to build data pipelines, data repositories
-                and reports.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Experience -->
-        <div class="category">
-          <div class="category-title">
-            <h3>Experience</h3>
-          </div>
-          <div class="category-content">
-
-            <div class="content-item">
-              <div class="content-item-title">
-                Business Intelligence Developer @ Zalando
-              </div>
-              <div class="content-item-timeframe">
-                September 2017 - Present, Berlin, Germany
-              </div>
-              <div class="content-item-text">
-                Responsible for developing BI reports for our partner brands.
-                This was a great opportunity for me to build end-to-end data
-                products by developing both the ETL process as well as the
-                reports, using Python, SQL and the GoodData business intelligence
-                cloud service.
-              </div>
-            </div>
-
-            <div class="content-item">
-              <div class="content-item-title">
-                Data Engineer @ Helpling
-              </div>
-              <div class="content-item-timeframe">
-                November 2014 - July 2016, Berlin, Germany
-              </div>
-              <div class="content-item-text">
-                My first job in the BI field, the time spent at
-                Helpling had a large impact on my career and personal
-                development. At Helpling, I was responsible for developing
-                and maintaining our data warehouse using PostgreSQL and
-                Python scripts.
-              </div>
-            </div>
-
-            <div class="content-item">
-              <div class="content-item-title">
-                Supply and Demand Intern @ Toyota
-              </div>
-              <div class="content-item-timeframe">
-                November 2013 - November 2014, Bruxel, Belgium
-              </div>
-              <div class="content-item-text">
-                As an intern , my task was to support the monthly and annual
-                sales and allocation planning process for Toyota Motor Europe
-                and its partners.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Education -->
-        <div class="category">
-          <div class="category-title">
-            <h3>Education</h3>
-          </div>
-          <div class="category-content">
-            <div class="content-item">
-              <div class="content-item-title">
-                MS, Applied Statistics and Econometrics
-              </div>
-              <div class="content-item-timeframe">
-                October 2011 - July 2013
-              </div>
-              <div class="content-item-text">
-                Babes-Bolyai University, Cluj Napoca, Romania
-              </div>
-            </div>
-            <div class="content-item">
-              <div class="content-item-title">
-                BS, Business Administration
-              </div>
-              <div class="content-item-timeframe">
-                October 2008 - July 2011
-              </div>
-              <div class="content-item-text">
-                Babes-Bolyai University, Cluj Napoca, Romania
-              </div>
-            </div>
-          </div>
-        </div>
-
-      <!-- end of main -->
-      </div>
-
-      <div class="secondary-section">
-        <div class="secondary-content">
+        <div class="link">
           <a href="https://github.com/avidms" target="_blank">
-            <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="github icon" />
+            <img id="github-pic" src="github.png" alt="github icon"/>
           </a>
         </div>
-      <!-- end of secondary -->
+
+        <div class="link">
+          <a href="https://twitter.com/damesavram" target="_blank">
+            <img id="twitter-pic" src="twitter.png"/>
+          </a>
+        </div>
+
       </div>
+    </header>
+
+    <main>
+    <div class="container">
+      <div class="page-content">
+
+        <div class="main-section">
+
+          <div class="category">
+            <div class="about-me-container">
+              <div class="avatar">
+
+              </div>
+              <div class="about-me">
+              <div id="name">
+                <h1>Avram Dames</h1>
+              </div>
+              <div id="profession">
+                <p>
+                  Business Intelligence Developer
+                </p>
+              </div>
+              <div id="location">
+                <i class="material-icons md-12">place</i> Berlin, Germany
+                &ensp;&ensp;|&ensp;&ensp;
+                <i class="material-icons md-12">email</i> avram.dames@gmail.com
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile -->
+          <div class="category">
+            <div class="category-title">
+              <h3>Profile</h3>
+            </div>
+            <div class="category-content">
+              <div class="content-item">
+                <div class="content-item-text">
+                  +3 years experience in Business Intelligence using
+                  Python and SQL to build data pipelines, data repositories
+                  and reports.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="category">
+            <div class="category-title">
+              <h3>Experience</h3>
+            </div>
+            <div class="category-content">
+
+              <div class="content-item">
+                <div class="content-item-title">
+                  Business Intelligence Developer @ Zalando
+                </div>
+                <div class="content-item-timeframe">
+                  September 2017 - Present, Berlin, Germany
+                </div>
+                <div class="content-item-text">
+                  Responsible for developing BI reports for our partner brands.
+                  This was a great opportunity for me to build end-to-end data
+                  products by developing both the ETL process as well as the
+                  reports, using Python, SQL and the GoodData business intelligence
+                  cloud service.
+                </div>
+              </div>
+
+              <div class="content-item">
+                <div class="content-item-title">
+                  Data Engineer @ Helpling
+                </div>
+                <div class="content-item-timeframe">
+                  November 2014 - July 2016, Berlin, Germany
+                </div>
+                <div class="content-item-text">
+                  My first job in the BI field, the time spent at
+                  Helpling had a large impact on my career and personal
+                  development. At Helpling, I was responsible for developing
+                  and maintaining our data warehouse using PostgreSQL and
+                  Python scripts.
+                </div>
+              </div>
+
+              <div class="content-item">
+                <div class="content-item-title">
+                  Supply and Demand Intern @ Toyota
+                </div>
+                <div class="content-item-timeframe">
+                  November 2013 - November 2014, Bruxel, Belgium
+                </div>
+                <div class="content-item-text">
+                  As an intern , my task was to support the monthly and annual
+                  sales and allocation planning process for Toyota Motor Europe
+                  and its partners.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="category">
+            <div class="category-title">
+              <h3>Education</h3>
+            </div>
+            <div class="category-content">
+              <div class="content-item">
+                <div class="content-item-title">
+                  MS, Applied Statistics and Econometrics
+                </div>
+                <div class="content-item-timeframe">
+                  October 2011 - July 2013
+                </div>
+                <div class="content-item-text">
+                  Babes-Bolyai University, Cluj Napoca, Romania
+                </div>
+              </div>
+              <div class="content-item">
+                <div class="content-item-title">
+                  BS, Business Administration
+                </div>
+                <div class="content-item-timeframe">
+                  October 2008 - July 2011
+                </div>
+                <div class="content-item-text">
+                  Babes-Bolyai University, Cluj Napoca, Romania
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- end of main -->
+      </div>
+
+        <div class="secondary-section">
+          <div class="secondary-content">
+
+          </div>
+        <!-- end of secondary -->
+        </div>
 
       <!-- end of page-content -->
       </div>
 
+    <!-- end of container -->
+    </div>
+    </main>
 
     <footer>
-      <div class="container">
-
-      </div>
+        <div class="contact-container" style="display: none">
+          <div class="flash-message" style="display: none"></div>
+          <form id="contact-form" action="localhost:5000" method="post">
+            <textarea id="send-msg" placeholder="Hi there ..."></textarea><br>
+            <input name="send-email" type="email" placeholder="your@email.org">
+          </form>
+          <input id="send-btn" type="button" class="button send" value="Send">
+        </div>
+        <input id="show-btn" type="button" class="button" value="Send me a message!">
     </footer>
 
-    </div>
+    <script src='index.js'></script>
+
   </body>
 </html>
