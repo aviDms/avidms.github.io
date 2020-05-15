@@ -9,6 +9,11 @@ body {
   background-color: #C46474;
 }
 
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
 .container {
   width: 900px;
   margin: 0 auto;
