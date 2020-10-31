@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Avram Dames</title>
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-  <body>
 
-    <header>
-      <div class="links">
+<head>
+  <meta charset="utf-8">
+  <title>Avram Dames</title>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 
-        <div class="link">
-          <a href="https://github.com/avidms" target="_blank">
-            <img id="github-pic" src="github.png" alt="github icon"/>
-          </a>
-        </div>
+<body>
 
-        <div class="link">
-          <a href="https://twitter.com/damesavram" target="_blank">
-            <img id="twitter-pic" src="twitter.png"/>
-          </a>
-        </div>
+  <header>
+    <div class="links">
 
+      <div class="link">
+        <a href="https://github.com/avidms" target="_blank">
+          <img id="github-pic" src="github.png" alt="github icon" />
+        </a>
       </div>
-    </header>
 
-    <main>
+      <div class="link">
+        <a href="https://twitter.com/damesavram" target="_blank">
+          <img id="twitter-pic" src="twitter.png" />
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
     <div class="container">
       <div class="page-content">
 
@@ -39,19 +41,20 @@
 
               </div>
               <div class="about-me">
-              <div id="name">
-                <h1>Avram Dames</h1>
-              </div>
-              <div id="profession">
-                <p>
-                  Data Engineer / Product Manager
-                </p>
-              </div>
-              <div id="location">
-                <i class="material-icons md-12">place</i> Hamburg, Germany
-                &ensp;&ensp;|&ensp;&ensp;
-                <i class="material-icons md-12">email</i> <a href="mailto:avram.dames@gmail.com">avram.dames@gmail.com</a>
-              </div>
+                <div id="name">
+                  <h1>Avram Dames</h1>
+                </div>
+                <div id="profession">
+                  <p>
+                    Data Engineer / Product Manager
+                  </p>
+                </div>
+                <div id="location">
+                  <i class="material-icons md-12">place</i> Hamburg, Germany
+                  &ensp;&ensp;|&ensp;&ensp;
+                  <i class="material-icons md-12">email</i> <a
+                    href="mailto:avram.dames@gmail.com">avram.dames@gmail.com</a>
+                </div>
               </div>
             </div>
           </div>
@@ -64,7 +67,7 @@
             <div class="category-content">
               <div class="content-item">
                 <div class="content-item-text">
-                  +5 years experience in data warehousing and business intelligence. During this 
+                  +5 years experience in data warehousing and business intelligence. During this
                   time, I have transitioned through multiple roles: from analyst to ETL developer,
                   data engineer and product manager.
                 </div>
@@ -78,7 +81,7 @@
               <h3>Experience</h3>
             </div>
             <div class="category-content">
-              
+
               <div class="content-item">
                 <div class="content-item-title">
                   Data Engineer / Product Manager @ FREENOW (former mytaxi)
@@ -88,9 +91,9 @@
                 </div>
                 <div class="content-item-text">
                   Focus on developing self service solutions for the analysts and data scientists.
-                  I've started my work at FREENOW as Data Warehouse Engineer, responsible for 
-                  expanding our data warehouse (Hadoop), data integration 
-                  platform (Airflow/Kafka), and later transition to product management, with a focus on 
+                  I've started my work at FREENOW as Data Warehouse Engineer, responsible for
+                  expanding our data warehouse (Hadoop), data integration
+                  platform (Airflow/Kafka), and later transition to product management, with a focus on
                   empowering the other data teams.
                 </div>
               </div>
@@ -174,22 +177,35 @@
             </div>
           </div>
 
-        <!-- end of main -->
-      </div>
+          <!-- end of main -->
+        </div>
 
         <div class="secondary-section">
           <div class="secondary-content">
 
           </div>
-        <!-- end of secondary -->
+          <!-- end of secondary -->
         </div>
 
-      <!-- end of page-content -->
+        <!-- end of page-content -->
       </div>
 
-    <!-- end of container -->
+      <!-- end of container -->
     </div>
-    </main>
-    
-  </body>
+  </main>
+
+  <form name="contact" netlify>
+    <p>
+      <label>Name <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Email <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+
+</body>
+
 </html>
